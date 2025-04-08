@@ -360,16 +360,9 @@ CMD ["myapp"]
 
 ### Common Issues
 
-#### Container won't start
+#### After $docker image or $docker image ls you get "error during connect: Head "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified"
 ```bash
-# Check container logs
-docker logs [container_id/name]
-
-# Inspect container
-docker inspect [container_id/name]
-
-# Check if ports are already in use
-netstat -tuln
+# Just turn on Docker Desktop
 ```
 ---
 

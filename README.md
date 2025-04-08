@@ -371,46 +371,6 @@ docker inspect [container_id/name]
 # Check if ports are already in use
 netstat -tuln
 ```
-
-#### Image won't build
-```bash
-# Check Dockerfile syntax
-# Ensure build context is correct
-# Verify internet connectivity for external resources
-```
-
-#### Network connectivity issues
-```bash
-# Check network configuration
-docker network inspect [network_name]
-
-# Test network from inside container
-docker exec [container_id/name] ping [destination]
-```
-
-#### Volume permission issues
-```bash
-# Check ownership and permissions
-# Ensure correct paths are specified
-# Use chown in Dockerfile or at runtime
-```
-
-#### Resource constraints
-```bash
-# Check system resources
-docker stats
-
-# Increase container resource limits
-docker update --cpus [value] --memory [value] [container_id/name]
-```
-
-#### Docker daemon issues
-```bash
-# Restart Docker daemon
-# Windows/Mac: Restart Docker Desktop
-# Linux: sudo systemctl restart docker
-```
-
 ---
 
 This cheatsheet is a living document. Contributions and suggestions are welcome!

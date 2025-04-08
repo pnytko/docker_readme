@@ -40,7 +40,6 @@ This is where containerization comes in. A container packages your application a
 - Typically consume MBs of memory and start in seconds
 - Provide isolation at the application level with minimal overhead
 
-![Docker vs VM Architecture](https://www.docker.com/sites/default/files/d8/2018-11/docker-containerized-appliction-blue-border_2.png)
 
 ### Real-World Examples
 

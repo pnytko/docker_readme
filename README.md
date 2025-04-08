@@ -13,7 +13,12 @@ A comprehensive reference guide for Docker commands, concepts, and best practice
   - [Docker Compose](#docker-compose)
 - [Dockerfile Reference](#dockerfile-reference)
 - [Best Practices](#best-practices)
+- [Windows Subsystem for Linux (WSL2)](#windows-subsystem-for-linux-wsl2)
 - [Troubleshooting](#troubleshooting)
+
+## Windows Subsystem for Linux (WSL2)
+
+WSL2 is a key component for running Docker on Windows systems. It provides a Linux kernel compatibility layer that allows Linux binaries to run natively on Windows.
 
 ## Installation
 
